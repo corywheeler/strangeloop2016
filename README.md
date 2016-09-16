@@ -201,9 +201,10 @@ My notes from the StrangeLoop 2016 Conference
 * Java Accessibility (pre-JDK-9)
   * public 
   * protected
-  * <package>* Java Accessibility (after JDK-9)
+  * <package>
+* Java Accessibility (after JDK-9)
   * public to everyone
   * public, but only to specific modules
   * public, only within a module
   * protected
-  * <package
+  * <package>
