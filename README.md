@@ -313,3 +313,16 @@ My notes from the StrangeLoop 2016 Conference
 * It is possible to enhance concurrency libraries by creating sagas as a library
 
 ## [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS...Dmitry Ivanov](http://www.thestrangeloop.com/2016/practical-data-synchronization-with-crdts.html)
+
+* Users expect their applications still work even when they lose their connections.
+* Users expect thier data changes to merge to an expected value.
+* Bad programmers worry about code. Good programmers worry about data structures - Linus Torvalds
+* CRDT - a data type with it's own algebra
+* C: Conflict Free
+  * Merge Operation - Idempotent, Communative and Associative
+* Local Updates
+* Local Merge of receiving data
+* All local merges converge
+* Examples
+  * G-Counter - Grow Only Counter
+  * G-Set - Grow Only Set
