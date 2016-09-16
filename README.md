@@ -308,3 +308,5 @@ My notes from the StrangeLoop 2016 Conference
 * Is it possible to build a monadic saga-aware future
 * However, futures do not know their context
 * How do you create a pleasant API
+* Sagas are a useful way of tinking about processes that can fail
+* It is possible to enhance concurrency libraries by creating sagas as a library
