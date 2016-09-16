@@ -5,7 +5,7 @@ My notes from the StrangeLoop 2016 Conference
 
 * Table of Contents for what I attended:
   * [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#government-hacking-and-human-rights-the-why-and-the-how-amie-stepanovich)
-  * [IDEALIZED COMMIT LOGS: CODE SIMPLIFICATION VIA PROGRAM SLICING...Alan Shreve](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#idealized-commit-logs-code-simplification-via-program-slicing)
+  * [IDEALIZED COMMIT LOGS: CODE SIMPLIFICATION VIA PROGRAM SLICING...Alan Shreve](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#idealized-commit-logs-code-simplification-via-program-slicingalan-shreve)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
