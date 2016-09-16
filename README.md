@@ -326,3 +326,14 @@ My notes from the StrangeLoop 2016 Conference
 * Examples
   * G-Counter - Grow Only Counter
   * G-Set - Grow Only Set
+  * LWW-Element-Set
+  * OR-Set
+  * OUR-Set
+* CRDT tend to grow because of Tombstones
+* Prune deleted elements, but when?
+* Applie Time-to-Live for tombstones
+* Send and reply with a Diff - Client modifies and sends only updated elements (Diff). Server responds with a full merge result (ineffecient). Can use a Scoped Diff as an answer. Server responds only with the elements that have won.
+* Introduce a clock per element.
+* There is no reliable time
+* Causality is ordering of events is important
+* Time can be good enough
