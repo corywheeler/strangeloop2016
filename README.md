@@ -229,3 +229,11 @@ My notes from the StrangeLoop 2016 Conference
 * ngrep - grep for your network 
 * perf
 * perftop
+* sudo perf record -g find /
+* flamegraphs - FlameGraph.pl
+* ngrep - look at network traffic
+* tcpdump - save network traffic to analyze later
+* sudo tcpdump port 80 -w file.pcap
+* wireshark - analyze your packets
+* learn your operating system and it's tools
+* she wrote a zine, Linux Debugging Tools. jvns.ca/zines
