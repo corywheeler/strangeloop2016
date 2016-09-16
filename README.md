@@ -6,6 +6,7 @@ My notes from the StrangeLoop 2016 Conference
 * Table of Contents for what I attended:
   * [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#government-hacking-and-human-rights-the-why-and-the-how-amie-stepanovich)
   * [IDEALIZED COMMIT LOGS: CODE SIMPLIFICATION VIA PROGRAM SLICING...Alan Shreve](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#idealized-commit-logs-code-simplification-via-program-slicingalan-shreve)
+  * [PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter]()
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -138,3 +139,74 @@ My notes from the StrangeLoop 2016 Conference
   * Program slicing can be an effective tool
     * Reduce large programs into smaller conceptual pieces
     * Practical dynmaic slicing 
+
+## PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter
+
+* API Structure Changes
+* There are Public API's
+  * java.*
+  * javax.*
+  * some com.sun.*, some jdk.*
+* Unsupported, not for public use
+  * Mostly sun.*
+  * Most infamous is sun.misc.Unsafe
+* Incompatible Changes
+  * Encapsulate most JDK internal APIs, so you can't use them any more
+  * Remove a small number of API's
+    * 6 in total
+    * Nothing that has ever been marked as depricated has ever been removed
+  * Change the binary structure
+  * New version string format
+  * A single underscore will no longer be allowed as an identifier in source code
+  * Endorsed standard API override mechanism
+  * Extension mechanism
+* Internal API Classification
+  * Non-Critical
+    * Little or no use outside of the JDK
+  * Critical
+    * Functionality would be difficult, if not impossible to implement outside of the JDK
+* JEP 260 Proposal
+  * Encapsulate all non-critical JDK internal APIs
+  * Encapsulate all critical JDK-internal APIs, for which supported replacements exist in JDK 8
+* jdeps tool
+### Introduction to JigSaw
+* Goals
+  * Make Java SE more scalable and flexible
+  * Improve security, maintainability and performance
+  * Simplify construction, deployment and maintenance of large scale applications
+  * Eliminate classpath hell
+  * It's all about simplifying things
+* Module fundamentals
+  * A grouping of code
+    * For java is a collection of packages
+  * Module can contain other things
+    * Native code
+    * Resources
+    * Configuration data
+* Module Declaration:
+  * module com.azul.zoop {}
+  * 'module' is becoming a restricted reserved word
+* Module Dependencies:
+  * com.azul.zoop { requires com.azul.zoop }
+* This all allows us to create a module dependency graph
+  * Must be an acyclic graph
+* Package Visiblity - you have to give exports of packages you want to export to other modules
+* Accessibility
+  * For package to be visible
+    * Package must be exported by the containing module
+      * Implicitly to all modules
+      * Explicitly ot a specific module
+    * The containing module must be read by the using module
+  * Public types from those packages can then be used.
+* Java Accessibility (pre-JDK-9)
+  * public 
+  * protected
+  * <package>
+  * private
+* Java Accessibility (after JDK-9)
+  * public to everyone
+  * public, but only to specific modules
+  * public, only within a module
+  * protected
+  * <package>
+  * private
