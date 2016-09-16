@@ -237,3 +237,46 @@ My notes from the StrangeLoop 2016 Conference
 * wireshark - analyze your packets
 * learn your operating system and it's tools
 * she wrote a zine, Linux Debugging Tools. jvns.ca/zines
+
+## DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil
+
+* Amazon Kinesis Streams. 
+* It's basically a hosted Kafka
+* Goals:
+  * Model of distributed commit log
+  * Patterns for transaction processing
+* They wanted to account for every event processed
+* Patterns, not "best practices" is what he's trying to show
+* Commit Log - Immutable, append only
+* Read in sequence, non-destructively
+* Old data is trimmed with Kinesis every 24 hrs by default
+* Iterator Types
+  * Oldest
+  * Sequence Number
+  * Newest
+* Record Data - key, data - key associates many of the records together. Also has sequence number (Record Metadata)
+* Kinesis Stream - slurps up commits in bulk and get order out
+* Stream is sharded
+  * Shards preserve ordering of records by key
+* Can write up to 50K p/s and read 2MB/s (5 reads/s/shard)
+* Distributed commit log
+* Log is sharded
+* Data read by shard
+* You can control which workers get which subset of your keys and they are in order
+* Workers get leases for shards
+* Single worker can hold many leases
+* You are reading records in batches
+* On the read side, you get at least once delivery, which means you will get duplicates
+* Pattern: Idempotent record processing
+* Pattern: Track checkpoints for last key processed
+* Pattern: Parallel processing by key
+* Pattern: SubSequence processing
+* Errors
+  * In some domains loss of some records don't matter, in others it does
+  * Is it an Intrinsic Error
+  * Is it an Environment Error
+* Pattern: Could retry processing
+* Pattern: Context Exceptions
+* Enables multiple Apps to all read from the same shards. Be careful because there is an implied latency
+* Pattern: Composite Application
+* Pattern: Track shard state by pertition key
