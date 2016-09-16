@@ -3,6 +3,8 @@ My notes from the StrangeLoop 2016 Conference
 
 [Full list of all speakers at the conference](http://www.thestrangeloop.com/2016/sessions.html)
 
+Table of Contents for what I attended:
+
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
 
@@ -48,3 +50,5 @@ My notes from the StrangeLoop 2016 Conference
   * If scope is exceeded, the operations needs to report back to the judicial authority as such
 * None of this is easy
 * Human rights should not be sacrificed entirely
+
+## [IDEALIZED COMMIT LOGS: CODE SIMPLIFICATION VIA PROGRAM SLICING](http://www.thestrangeloop.com/2016/idealized-commit-logs-code-simplification-via-program-slicing.html)
