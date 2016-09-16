@@ -10,6 +10,7 @@ My notes from the StrangeLoop 2016 Conference
   * [SYSTEMS PROGRAMMING AS A SWISS ARMY KNIFE...Julia Evans](https://github.com/corywheeler/strangeloop2016/#systems-programming-as-a-swiss-army-knifejulia-evans)
   * [DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil](https://github.com/corywheeler/strangeloop2016/#distributed-commit-log-application-techniques-for-transaction-processingdavid-mcneil)
   * [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#failing-and-recovering-asynchronously-a-sagadaniel-solano-gómez)
+  * [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS]
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -310,3 +311,5 @@ My notes from the StrangeLoop 2016 Conference
 * How do you create a pleasant API
 * Sagas are a useful way of tinking about processes that can fail
 * It is possible to enhance concurrency libraries by creating sagas as a library
+
+## [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS](http://www.thestrangeloop.com/2016/practical-data-synchronization-with-crdts.html)
