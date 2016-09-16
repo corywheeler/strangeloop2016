@@ -210,3 +210,22 @@ My notes from the StrangeLoop 2016 Conference
   * protected
   * <package>
   * private
+
+## SYSTEMS PROGRAMMING AS A SWISS ARMY KNIFE...Julia Evans
+* TCP
+* All bugs are easy with the right tools
+* Don't be scared to go deeper
+* strace
+* ngrep
+* netstat
+* strace - she loves it. it traces system calls.
+* strace -f -e open bash
+* opensnoop - it's fast and strace is much slower
+* python profiler
+* dstat
+* top
+* htop
+* perftop - which functions are running slow on your computer
+* ngrep - grep for your network 
+* perf
+* perftop
