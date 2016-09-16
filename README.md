@@ -202,9 +202,11 @@ My notes from the StrangeLoop 2016 Conference
   * public 
   * protected
   * <package>
+  * private
 * Java Accessibility (after JDK-9)
   * public to everyone
   * public, but only to specific modules
   * public, only within a module
   * protected
   * <package>
+  * private
