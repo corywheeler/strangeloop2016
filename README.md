@@ -285,3 +285,22 @@ My notes from the StrangeLoop 2016 Conference
 * Pattern: Track shard state by pertition key
 
 ## [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](http://www.thestrangeloop.com/2016/failing-and-recovering-asynchronously-a-saga.html)
+
+* The saga pattern
+* How it can be used to undo side effects in asynchronous systems
+* For every action there is an undo action
+* Begin the saga pattern
+* Started 30 years ago, Long Lived Transactions... paper at Princeton
+  * A LLT as a saga
+  * Guarantee Compensating actions are executed
+* Sagas get revived in SOA patterns.
+* How can we get transaction likeness between distributed services
+* Implement the saga pattern, use sagas as an alternative to distributed transactions
+* May be managed internally or externally
+* Add Asynchronous Sagas
+  * Add undo semantics to concurrency constructs
+  * Not concerned with persistance
+  * Operations may or may not be distributed
+* Primitives:
+  * A forward flow
+  * A rollback flow
