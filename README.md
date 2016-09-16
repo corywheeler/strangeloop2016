@@ -304,3 +304,7 @@ My notes from the StrangeLoop 2016 Conference
 * Primitives:
   * A forward flow
   * A rollback flow
+* Sagas are not just for streams
+* Is it possible to build a monadic saga-aware future
+* However, futures do not know their context
+* How do you create a pleasant API
