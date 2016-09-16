@@ -9,7 +9,7 @@ My notes from the StrangeLoop 2016 Conference
   * [PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#project-jigsaw-in-jdk-9-modularity-comes-to-javasimon-ritter)
   * [SYSTEMS PROGRAMMING AS A SWISS ARMY KNIFE...Julia Evans](https://github.com/corywheeler/strangeloop2016/#systems-programming-as-a-swiss-army-knifejulia-evans)
   * [DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil](https://github.com/corywheeler/strangeloop2016/#distributed-commit-log-application-techniques-for-transaction-processingdavid-mcneil)
-  * FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez
+  * [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#failing-and-recovering-asynchronously-a-sagadaniel-solano-gómez)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -172,7 +172,7 @@ My notes from the StrangeLoop 2016 Conference
   * Encapsulate all non-critical JDK internal APIs
   * Encapsulate all critical JDK-internal APIs, for which supported replacements exist in JDK 8
 * jdeps tool
-### Introduction to JigSaw
+### [Introduction to JigSaw](http://www.thestrangeloop.com/2016/project-jigsaw-in-jdk-9-modularity-comes-to-java.html)
 * Goals
   * Make Java SE more scalable and flexible
   * Improve security, maintainability and performance
@@ -214,7 +214,7 @@ My notes from the StrangeLoop 2016 Conference
   * <package>
   * private
 
-## SYSTEMS PROGRAMMING AS A SWISS ARMY KNIFE...Julia Evans
+## [SYSTEMS PROGRAMMING AS A SWISS ARMY KNIFE...Julia Evans](http://www.thestrangeloop.com/2016/systems-programming-as-a-swiss-army-knife.html)
 * TCP
 * All bugs are easy with the right tools
 * Don't be scared to go deeper
@@ -241,7 +241,7 @@ My notes from the StrangeLoop 2016 Conference
 * learn your operating system and it's tools
 * she wrote a zine, Linux Debugging Tools. jvns.ca/zines
 
-## DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil
+## [DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil](http://www.thestrangeloop.com/2016/distributed-commit-log-application-techniques-for-transaction-processing.html)
 
 * Amazon Kinesis Streams. 
 * It's basically a hosted Kafka
@@ -284,4 +284,4 @@ My notes from the StrangeLoop 2016 Conference
 * Pattern: Composite Application
 * Pattern: Track shard state by pertition key
 
-## FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez
+## [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](http://www.thestrangeloop.com/2016/failing-and-recovering-asynchronously-a-saga.html)
