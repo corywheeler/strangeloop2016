@@ -337,3 +337,7 @@ My notes from the StrangeLoop 2016 Conference
 * There is no reliable time
 * Causality is ordering of events is important
 * Time can be good enough
+* Academia is not as scary as it sometimes seems to pragmatic devs.
+* We need better and simpler abstractions to develop Offline-Friendly apps
+* CRDTs give a great value, but there are some caveats
+* Things like Lasp
