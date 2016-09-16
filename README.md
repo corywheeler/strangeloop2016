@@ -54,3 +54,87 @@ My notes from the StrangeLoop 2016 Conference
 * Human rights should not be sacrificed entirely
 
 ## [IDEALIZED COMMIT LOGS: CODE SIMPLIFICATION VIA PROGRAM SLICING...Alan Shreve](http://www.thestrangeloop.com/2016/idealized-commit-logs-code-simplification-via-program-slicing.html)
+* Code is read much more often than written
+* We don't talk about reading code
+* When it comes to reading code, we have almost nothing to say
+* Most of the code you work with is code you did not write
+* Bug in a dependency you have: Complain about it on the internet
+* Why not fix the bug in your dependency? Because it's code you will have a hard time understanding
+* The program comprehension task is a critical one
+* One time cost to comprehend the software is high and the benefit is marginal
+* Software is hard to understand
+* How do we solve the problem?
+  * Documentation is for users, not you, and often out of date
+  * Debugger step through
+  * Print log
+  * Whiteboard (What does that arrow even mean)
+  * Read the code - a horrible serialization format for software... a bad layer of abstraction
+* When thinking about software you don't think about in terms of source code, you are at a higher layer of abstraction
+* Can we build mental models from code faster? 
+* The code is always up to date
+* Small programs are easy to read.
+* They become arcane with noise from edge cases, workarounds, additional features
+* Idea: Can we take a larger program and simplify back down to smaller units we can understand
+* Algorithm:
+  * Write a test case
+  * Run a code coverage report
+  * Prune all statements not marked by coverage
+  * Clean up AST
+  * Write code back out
+  * Properties you get out of the above
+    * It compiles
+    * You have tests
+* This is called Program Slicing
+* Program Slicing first described by Mark Weiser in 1979
+  * Forward Slicing
+  * Dynaminc Slicing
+  * Observational Slicing
+  * This Slicing
+* Static Slice
+  * How to analyze
+   * Dataflow Algorithm
+   * Program Dependance Graph
+   * Control Dependance
+   * Data Dependance
+* Dynamic Slice
+  * We are excuting the program
+  * Multiple Algorithms
+    * Dataflow
+    * Dynamic Dependance Relations
+    * Program Dependance Graph
+* Slicing Applicaitons
+  * Better Context in maintenance or debugging
+  * Automatic Parrallism
+  * Skip tests
+  * Reduce codebase size
+  * Optimize JS code loading (Amazon is doing this)
+  * Debugging
+  * Understanding + Learning
+* Does it work?
+* Everyone does them and uses them, we're just usually slicing in our heads
+* Proof studies are either very old, or done in University
+* Not well studied or understood
+* Tools
+  * Indus
+  * Giri
+  * Wala
+  * Frama-C plugin
+  * JSlice
+  * CodeSurfer (commercial, gone)
+* Tools are old, mostly java
+* Writing them is really hard
+* Idealized Commit Log
+  * When you take a slice, you come out with a smaller piece that is easier to understand
+  * All of the code you sliced away is important eventually, once you understand the whole bit
+  * Algorithm
+    * Run code coverage for each test case 
+    * Heuristically chose a best ordering of test cases
+    * Then iteratively
+      * Create slice from Test0
+      * Slice from Test0..TestN_1
+      * diff these slices
+* He built a prototype tool for this Idealized Commit Log
+* We need more tools.
+  * Program slicing can be an effective tool
+    * Reduce large programs into smaller conceptual pieces
+    * Practical dynmaic slicing 
