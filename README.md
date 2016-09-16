@@ -1,7 +1,10 @@
 # StrangeLoop 2016
 My notes from the StrangeLoop 2016 Conference
 
-## GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich
+[Full list of speakers](http://www.thestrangeloop.com/2016/sessions.html)
+
+## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
+
 
 * FBI hacking
 * Early days, not a lot of information
