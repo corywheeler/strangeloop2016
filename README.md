@@ -312,4 +312,4 @@ My notes from the StrangeLoop 2016 Conference
 * Sagas are a useful way of tinking about processes that can fail
 * It is possible to enhance concurrency libraries by creating sagas as a library
 
-## [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS](http://www.thestrangeloop.com/2016/practical-data-synchronization-with-crdts.html)
+## [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS...Dmitry Ivanov](http://www.thestrangeloop.com/2016/practical-data-synchronization-with-crdts.html)
