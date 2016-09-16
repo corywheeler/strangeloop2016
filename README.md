@@ -206,4 +206,4 @@ My notes from the StrangeLoop 2016 Conference
   * public, but only to specific modules
   * public, only within a module
   * protected
-  * <package>
+  * <package
