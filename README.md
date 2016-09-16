@@ -1,7 +1,7 @@
 # StrangeLoop 2016
 My notes from the StrangeLoop 2016 Conference
 
-[Full list of speakers](http://www.thestrangeloop.com/2016/sessions.html)
+[Full list of all speakers at the conference](http://www.thestrangeloop.com/2016/sessions.html)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
