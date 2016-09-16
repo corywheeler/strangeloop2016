@@ -6,7 +6,7 @@ My notes from the StrangeLoop 2016 Conference
 * Table of Contents for what I attended:
   * [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#government-hacking-and-human-rights-the-why-and-the-how-amie-stepanovich)
   * [IDEALIZED COMMIT LOGS: CODE SIMPLIFICATION VIA PROGRAM SLICING...Alan Shreve](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#idealized-commit-logs-code-simplification-via-program-slicingalan-shreve)
-  * [PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter]()
+  * [PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#project-jigsaw-in-jdk-9-modularity-comes-to-javasimon-ritter)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -140,7 +140,7 @@ My notes from the StrangeLoop 2016 Conference
     * Reduce large programs into smaller conceptual pieces
     * Practical dynmaic slicing 
 
-## PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter
+## [PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter](http://www.thestrangeloop.com/2016/project-jigsaw-in-jdk-9-modularity-comes-to-java.html)
 
 * API Structure Changes
 * There are Public API's
@@ -202,11 +202,9 @@ My notes from the StrangeLoop 2016 Conference
   * public 
   * protected
   * <package>
-  * private
 * Java Accessibility (after JDK-9)
   * public to everyone
   * public, but only to specific modules
   * public, only within a module
   * protected
   * <package>
-  * private
