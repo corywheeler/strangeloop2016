@@ -9,6 +9,7 @@ My notes from the StrangeLoop 2016 Conference
   * [PROJECT JIGSAW IN JDK 9: MODULARITY COMES TO JAVA...Simon Ritter](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#project-jigsaw-in-jdk-9-modularity-comes-to-javasimon-ritter)
   * [SYSTEMS PROGRAMMING AS A SWISS ARMY KNIFE...Julia Evans](https://github.com/corywheeler/strangeloop2016/#systems-programming-as-a-swiss-army-knifejulia-evans)
   * [DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil](https://github.com/corywheeler/strangeloop2016/#distributed-commit-log-application-techniques-for-transaction-processingdavid-mcneil)
+  * FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -282,3 +283,5 @@ My notes from the StrangeLoop 2016 Conference
 * Enables multiple Apps to all read from the same shards. Be careful because there is an implied latency
 * Pattern: Composite Application
 * Pattern: Track shard state by pertition key
+
+## FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez
