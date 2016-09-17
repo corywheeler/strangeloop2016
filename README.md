@@ -468,3 +468,26 @@ My notes from the StrangeLoop 2016 Conference
 * [FOR US] CommitStream, should we be recording our Error Events?
 * Event Schemas?
 * All views are projections off of the event log.
+
+## LIES, DAMN LIES, AND METRICS...André Arko
+
+* Metrics, are important, tell you what is happening. 
+* Find video, Metrics Metrics Everywhere
+* Only way to know business value is to measure it
+* Metrics convince you you undertstand
+* Specific ways metrics mislead you
+* The biggest problem is Averages convince you you understand. Averages are lie-candy for your brain. Brains are really good at finding patterns. When you see an average your brain says aha, an average is a number and a standard distribution.
+* The problem is your numbers are not random. So you are actively misinforming yourself. 70% of values are within 1 std. dev of the middle of the bell curve. In real life, not so much. Real life data is NOT a standard bell curve!!!!!
+* If you put one hand in a bucket of ice and the other in a bucket coals, on average you're comofortable.
+* Graph the median - shows you what did actually happen in real life. The value that was higher or lower than half the values you collected
+* Graph 95th percentile... shows you the 5% with the highest values
+* Graph the 99th percentile... 1% is the amount that you probalby want to pay attention to trouble shoot on large scales
+* Another problem with averages, Aggregate Graphs, Your averaging, for example, across multipel servers.
+* You can breakout the Aggregate Graphs, to see individula servers, for example.
+* Visualizing your data is the only way to get good informaiton out of your data.
+* Breakout alerts should be on the first dead server, not ever on an aggregate of servers
+* Servers: you have no idea what is going on
+  * Ex. Runtime Lag - Runtimes do things that you didn't write code for. There are times when your program is running when your code is not. How do you tell you lost consciousness. How bad is runtime lage. Do a sleep(1) in a loop and take the dif between how many runs and your sleeps, gives you how much time is spent running other stuff.
+  * VM lag - you have it.
+* Routing - you have it (a la a router and a la a Server router). How slow is routing? Look at your real life Request Time. New Relic can tell you how much time is spent inside your app, but that is not the whole story. There is app rout time, load balancers, transite time, hardware router time. Wall clock time from real clients. Pingdom, Runscope.
+* Metrics are good, but know what your measureing and how those things effect your business value
