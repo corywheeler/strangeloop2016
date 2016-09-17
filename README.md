@@ -548,3 +548,22 @@ My notes from the StrangeLoop 2016 Conference
 * Nats chose TCP/IP
 * Fire and forget, at most once delivered
 * Payload is opaque to the server, to the server it's just bytes
+* Most clients have asynchronous behavior
+* The server will disconnect slow clients and protect itself.
+* So NATS is resilliant as well
+* You can wildcard match subjects
+* Building systems with NATS
+* What does NATS give us
+  * Pub/Sub with low latency for 1 to 1, 1 to N nodes, wtih an always on Tcp connection
+* NATS can be clustered
+* Commucating
+  * Can be used for heartbeats for announcing liveness, services could publish heartbeats
+  * Can be used for distribution queues among a set of workers
+  * Lowest Latency Response
+* Need to understand the reason things fail, NATS is fire and forget. A Client Can time out for many reasons.
+  * Each service node could have it's own inbox
+* NATS is useful for internal communication of a distributed system
+* Read the wikipedia article on the End To End Principal
+* Replayability can be better than guarnteed delivery
+* Idempotency can be better than exactly once dlelivery
+* Communicativity can be better than ordered delivery.
