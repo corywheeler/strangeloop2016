@@ -12,7 +12,7 @@ My notes from the StrangeLoop 2016 Conference
   * [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#failing-and-recovering-asynchronously-a-sagadaniel-solano-gómez)
   * [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS...Dmitry Ivanov](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#practical-data-synchronization-with-crdtsdmitry-ivanov)
   * [THE FUTURE OF THE MOBILE WEB...Paul Kinlan](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-future-of-the-mobile-webpaul-kinlan)
-  * [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood]()
+  * [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#commander-better-distributed-applications-through-cqrs-and-event-sourcingbobby-calderwood)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -428,4 +428,43 @@ My notes from the StrangeLoop 2016 Conference
 * Lighthouse
 
 ## [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood](http://www.thestrangeloop.com/2016/commander-better-distributed-applications-through-cqrs-and-event-sourcing.html)
-* 
+* Was chatting with him a bit, he recommended giving this a watch... https://www.youtube.com/watch?v=FihU5JxmnBg
+* Immutability is central to informations systems (distributed systems)
+* Action and percepettion are not the same, and immutability facilitates their seperation
+* Businesses services are not databases, they're event stream reactors
+  * We sometimes think of them as they are
+* Cross-cutting concerns must be satisfied in the presense of Conways Law
+  * We have to respect that and use it to our advantage
+* His slide on problematic architecture is familiar
+* Immutability is central to information systems
+* Event Sourcing - store all events that build state rather than an aggregate picture of state. You have the whole story of what happened and you have the whole story of current state. You capture the whole narrative.
+* Writes != Reads
+* 80% of our system is probably a read load
+* 3NF is not performant for Read or Write. Kind of an average line for both worlds.
+* Database Leaking is an abstraction that leaks out.
+* Conways Law, yep totally a thing
+* Let's use it for our benefit.
+* There are cross cutting concerns.
+* How do we handle those things in a distributed organization
+* We can do better than the grey box
+* Commander Pattern
+  * REST + CQRS + Event Sourcing + Reactive Stream Processors + ... (i missed the rest of his formula)
+  * Commander Architecture
+* Embrace Immutability
+* Expressing actions in the language of the business domain (not in database language)
+* A command is an action and a data, phrased in the imperitaitive, ex. transfer_money
+* A event, phrased in the past tense, money_transfered, with data
+* Seperate Action from Perception
+* From 1 Log => n Data Views, as many data views as we want. We don't have to all agree on a data schema
+* Why Commander Component
+  * Single writer to commands topic
+  * Ensuring schema conformance
+  * Indexing all Commands and Events for reads and server-push
+  * Provides optional illusion of synchorony to clients
+* How do we implement the Reactive Services?
+  * Kafka Streams - allows you to express given a set of source topics, map (do x to it), and reduce those to a set out outbound topics
+* Should CommitStream be sending back a 202 rather than a 201?
+* https://tinyurl.com/capital-one-cmdr
+* [FOR US] CommitStream, should we be recording our Error Events?
+* Event Schemas?
+* All views are projections off of the event log.
