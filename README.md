@@ -533,3 +533,18 @@ My notes from the StrangeLoop 2016 Conference
 * Datacenter Outages
 
 ## [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo Salinas](http://www.thestrangeloop.com/2016/the-zen-of-high-performance-messaging-with-nats.html)
+
+* High performance messaging system
+* Originally built for Clout Foundry
+* Open Source
+* 7MB in size in Docker Image
+* Acts as an always available dial-tone for clients to communicate with
+* NATS = Performance + Simplicity
+* Simplicity Matters
+* Simplicity buys uou opportunity - Rich Hickey, look at his link
+* Less is better
+* Does nothing but pure pub/sub
+* No built in persistance of messages
+* Nats chose TCP/IP
+* Fire and forget, at most once delivered
+* Payload is opaque to the server, to the server it's just bytes
