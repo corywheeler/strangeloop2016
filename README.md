@@ -1,5 +1,5 @@
 # StrangeLoop 2016
-My notes from the StrangeLoop 2016 Conference
+My notes from the StrangeLoop 2016 Conference. I have tried to account for all of my spelling errors, but should you stumble on one then please accept my apologies
 
 * [Full list of all speakers at the conference](http://www.thestrangeloop.com/2016/sessions.html)
 
@@ -557,7 +557,7 @@ My notes from the StrangeLoop 2016 Conference
 * What does NATS give us
   * Pub/Sub with low latency for 1 to 1, 1 to N nodes, wtih an always on Tcp connection
 * NATS can be clustered
-* Commucating
+* Communicating
   * Can be used for heartbeats for announcing liveness, services could publish heartbeats
   * Can be used for distribution queues among a set of workers
   * Lowest Latency Response
@@ -570,3 +570,20 @@ My notes from the StrangeLoop 2016 Conference
 * Communicativity can be better than ordered delivery.
 
 ## [FRONTIERS IN CRYPTOGRAPHY...Tony Arcieri](http://www.thestrangeloop.com/2016/frontiers-in-cryptography.html)
+
+* The Past
+* Some crypto is more invented than discovered
+* A look at history
+* Diffie-Hellman-Merkle (1976)
+* Rivest-Shamir-Adleman
+* James Ellis, Clifford Cocks, Malcolm Williamson - Non-Secret Encryption
+* Pollard's Rho algorithm
+* Lenstra's Method
+* Shor's Algorithm
+* Symmetric Encryption
+* Where is cryptography going?
+* End to End
+* Main problem that is run into is Indistinguishability
+* Property Preserving Encryption
+* Order Revealing Encryption
+* Searchable Symmetric Encryption
