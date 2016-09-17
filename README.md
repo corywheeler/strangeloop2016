@@ -344,3 +344,44 @@ My notes from the StrangeLoop 2016 Conference
 * Things like Lasp
 
 ## [THE FUTURE OF THE MOBILE WEB...Paul Kinlan](http://www.thestrangeloop.com/2016/the-future-of-the-mobile-web.html)
+
+* The difference engine changed the world, Charles Babbage 1822ish
+* Analytical Machine
+* Punch Cards, ex. of removable storage
+* 1960's to mid 1980's, still using punch cards
+  * Start of the computing world
+* Then we get magnetic tape, invented in 1977, demise in the 1980's
+* Then Floppy Disk, 1982, lasted to 2005
+* CD's, invented 1988, lasted to 2009
+* Along here we start to get this thing called The Web
+  * At the time, far less capable
+* Along came AJAX
+* At every phase some sort of friction was removed for delivering things to the user
+* Distribution was one of the hardest parts of building software
+* We get to the point of just entering a url and we're able to do stuff
+* Mobilithic era
+* App store is a distribution thing
+* Facebook is a distribution thing
+* Cost of distribution has been decreasing over time, massively
+* In a consumer mobile app, every step you make a user perform results in a loss on the order of 20% of your users
+* Need to get closer to... give user a url... user uses app. Each step that interferes with this results in some of your potential users leaving your site
+* Engagement is the killer feature
+* 40% of people leave a site that takes more than 3 seconds to load
+* 20% of households rely solely on cellular data
+* 60% of the rest of the world are only on 2G
+* People's first computing devices are more and more becoming mobile devices
+* Performance is EVERYTHING
+* Rise of the meta platform - Web, Facebook, Line, Kakao, WeChat
+* The web is the meta platform
+* Performace is the selling point - Takes 8 seconds to load the average website on a mobile platform
+* The google AMP project
+* Each "App" wants to be "the next browser"
+* If you look at the api space, you're starting to see things like messenger box. 
+* They are using all of the web things around to accomplish this.
+* What is the future of the mobile web?
+  * Match Native on features
+  * Focus on Performance
+  * **Increase Engagement**
+  * Profit
+* Get browser vendors to fix their mess. 
+* 
