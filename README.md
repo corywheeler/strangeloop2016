@@ -613,3 +613,38 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
 * Convince people of the value of functional programming in this way
 
 ## [BUILDING SECURE CULTURES...Leigh Honeywell](http://www.thestrangeloop.com/2016/building-secure-cultures.html)
+
+* bit.ly/securecultures
+* move fast and break things
+* Slack has bounties
+* What does it mean to build secure software?
+* You have enough tooling in place
+* Developers reach out for review
+* Developers reach out proactively
+* What it comes down to is there is a lot of complexity
+* Swiss chees model of accident causation, failures occur when those holes line up.
+* We are all beginners at this Security Age piece of security
+* We can hope to make the holes smaller and less likely to line up.
+* Go Looking for Security things
+* It's a mindset thing.
+* Security Smells - peoples body language, confidence in describing thier component as people talked about their code.
+* If you reach out for help in your organization and you get shot down that's probably a pretty bad thing
+* ctftime.org
+* Organizational Processes
+* The Security Development Lifecycle (SDL)
+* What does this look like when you shipping code every day
+* minimum viable sdl:
+  * Risk self-assessment
+  * Up Front threat modeling
+  * Security Review Checklist
+  * Security Analysis ingegrated into ci process
+* Slack created a self service SDL
+* Initial Risk Assessment
+* Why do people avoid checklists?
+* Book: The checklist manifesto
+* Cultural Factors:
+  * Leaders - hold yourself accountable. Erik Hollnagel quote
+  * Don't Feign Surprise, has no benefit
+  * Emotional Labor - emotional safety - Book: The Managed Heart.
+  * If we are kind in the feedback we give, the better a reciprocating loop
+* Book: The digital doctor
