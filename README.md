@@ -11,7 +11,7 @@ My notes from the StrangeLoop 2016 Conference
   * [DISTRIBUTED COMMIT LOG: APPLICATION TECHNIQUES FOR TRANSACTION PROCESSING...David McNeil](https://github.com/corywheeler/strangeloop2016/#distributed-commit-log-application-techniques-for-transaction-processingdavid-mcneil)
   * [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#failing-and-recovering-asynchronously-a-sagadaniel-solano-gómez)
   * [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS...Dmitry Ivanov](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#practical-data-synchronization-with-crdtsdmitry-ivanov)
-  * [THE FUTURE OF THE MOBILE WEB...Paul Kinlan]()
+  * [THE FUTURE OF THE MOBILE WEB...Paul Kinlan](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-future-of-the-mobile-webpaul-kinlan)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -343,4 +343,4 @@ My notes from the StrangeLoop 2016 Conference
 * CRDTs give a great value, but there are some caveats
 * Things like Lasp
 
-## THE FUTURE OF THE MOBILE WEB...Paul Kinlan
+## [THE FUTURE OF THE MOBILE WEB...Paul Kinlan](http://www.thestrangeloop.com/2016/the-future-of-the-mobile-web.html)
