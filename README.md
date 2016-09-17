@@ -15,6 +15,7 @@ My notes from the StrangeLoop 2016 Conference
   * [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#commander-better-distributed-applications-through-cqrs-and-event-sourcingbobby-calderwood)
   * [BUILDING A DISTRIBUTED TASK SCHEDULER WITH AKKA, KAFKA, AND CASSANDRA...David van Geest](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#building-a-distributed-task-scheduler-with-akka-kafka-and-cassandradavid-van-geest)
   * [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo Salinas](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-zen-of-high-performance-messaging-with-natswaldemar-quevedo-salinas)
+  * FRONTIERS IN CRYPTOGRAPHY...Tony Arcieri
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -567,3 +568,5 @@ My notes from the StrangeLoop 2016 Conference
 * Replayability can be better than guarnteed delivery
 * Idempotency can be better than exactly once dlelivery
 * Communicativity can be better than ordered delivery.
+
+## [FRONTIERS IN CRYPTOGRAPHY...Tony Arcieri](http://www.thestrangeloop.com/2016/frontiers-in-cryptography.html)
