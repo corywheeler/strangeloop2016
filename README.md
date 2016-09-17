@@ -384,4 +384,44 @@ My notes from the StrangeLoop 2016 Conference
   * **Increase Engagement**
   * Profit
 * Get browser vendors to fix their mess. 
-* 
+* Credential Management API
+* Payment API
+* Nobody likes entering data into forms
+* Generic Sensor API
+* WebUSB
+* Native Sharing - Share from Native to Web
+* Web VR
+* Look at his big list of API's
+* Focus on Performance
+* RAIL - Respond (under 100ms), Animation (render frames every 16ms), Idle (), Load (ready to use in 1s)
+* Look at progressive rendering + bootstrapping
+* Increase Engagement - provide good experience to the users
+  * What's misisng? - Homescreena ccess, Push Notifications, Offline support
+  * Progressive Web Apps
+  * http://infrequently.org
+  * Originate from a Secure Origin
+  * Load while offline
+  * Reference a Web API manifest
+  * Responsive
+  * Instant
+  * Reliable
+  * Smooth
+  * Engaging
+  * Works offline
+* Service Worker API - look at it... W3C.
+  * Lives outside of the site and controls things for the site
+  * Sort of like a client side proxy in some sense
+  * Service Worker puts you in control with how the offline experience works
+* Progressive Web App experience
+  * Reliable
+  * Fast
+  * Engaging
+  * Secure
+* Service Workers are to Progressive Web Apps as XMLHttpRequest was to AJAX
+* Where are we going, we don't need no browser
+* The headless web
+* He Rick Rolled the entire audience, clever
+* Schema.org
+* Headless Chrome
+* PageSpeed Tools - Insights
+* Lighthouse
