@@ -532,4 +532,4 @@ My notes from the StrangeLoop 2016 Conference
   * Casandra scales horizontally
 * Datacenter Outages
 
-## [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo] Salinas(http://www.thestrangeloop.com/2016/the-zen-of-high-performance-messaging-with-nats.html)
+## [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo Salinas](http://www.thestrangeloop.com/2016/the-zen-of-high-performance-messaging-with-nats.html)
