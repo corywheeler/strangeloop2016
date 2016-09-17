@@ -13,6 +13,7 @@ My notes from the StrangeLoop 2016 Conference
   * [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS...Dmitry Ivanov](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#practical-data-synchronization-with-crdtsdmitry-ivanov)
   * [THE FUTURE OF THE MOBILE WEB...Paul Kinlan](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-future-of-the-mobile-webpaul-kinlan)
   * [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#commander-better-distributed-applications-through-cqrs-and-event-sourcingbobby-calderwood)
+  * BUILDING A DISTRIBUTED TASK SCHEDULER WITH AKKA, KAFKA, AND CASSANDRA...David van Geest
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -491,3 +492,6 @@ My notes from the StrangeLoop 2016 Conference
   * VM lag - you have it.
 * Routing - you have it (a la a router and a la a Server router). How slow is routing? Look at your real life Request Time. New Relic can tell you how much time is spent inside your app, but that is not the whole story. There is app rout time, load balancers, transite time, hardware router time. Wall clock time from real clients. Pingdom, Runscope.
 * Metrics are good, but know what your measureing and how those things effect your business value
+
+
+## [BUILDING A DISTRIBUTED TASK SCHEDULER WITH AKKA, KAFKA, AND CASSANDRA...David van Geest](http://www.thestrangeloop.com/2016/building-a-distributed-task-scheduler-with-akka-kafka-and-cassandra.html)
