@@ -587,3 +587,11 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
 * Property Preserving Encryption
 * Order Revealing Encryption
 * Searchable Symmetric Encryption
+* Oblivious RAM (ORAM)
+* Functional Encryption
+* Lattices
+* Homomorphic Encryption
+* SEAL
+* CryptoNets
+* VC3
+* Post-Quantum Cryptography
