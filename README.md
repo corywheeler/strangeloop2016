@@ -16,6 +16,7 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
   * [BUILDING A DISTRIBUTED TASK SCHEDULER WITH AKKA, KAFKA, AND CASSANDRA...David van Geest](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#building-a-distributed-task-scheduler-with-akka-kafka-and-cassandradavid-van-geest)
   * [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo Salinas](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-zen-of-high-performance-messaging-with-natswaldemar-quevedo-salinas)
   * [FRONTIERS IN CRYPTOGRAPHY...Tony Arcieri](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#frontiers-in-cryptographytony-arcieri)
+  * REPRODUCIBILITY...Gary Bernhardt
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -595,3 +596,17 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
 * CryptoNets
 * VC3
 * Post-Quantum Cryptography
+
+## REPRODUCIBILITY...Gary Bernhardt
+
+* React, Bundler, Git (the data model portion) - given a set of inputs, you get the same output, always
+* State in these all typically get pushed to a point
+* These systems give us easier mental models
+* A Git hash is a purely reproducable result on any machine in the world.
+* The mental model of git is better than other VCS systems
+* The secret - all of these 3 systems are easy to understand because they expose pure functions as a part of their mental models. This is why we love these tools.
+* None of them are written in functional lanugages mind you
+* Is their design obvious in retrospect?
+* No
+* If your building software development systems, build them in this way
+* Convince people of the value of functional programming in this way
