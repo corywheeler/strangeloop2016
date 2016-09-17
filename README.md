@@ -17,6 +17,7 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
   * [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo Salinas](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-zen-of-high-performance-messaging-with-natswaldemar-quevedo-salinas)
   * [FRONTIERS IN CRYPTOGRAPHY...Tony Arcieri](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#frontiers-in-cryptographytony-arcieri)
   * [REPRODUCIBILITY...Gary Bernhardt](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#reproducibilitygary-bernhardt)
+  * [BUILDING SECURE CULTURES...Leigh Honeywell]()
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -610,3 +611,5 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
 * No
 * If your building software development systems, build them in this way
 * Convince people of the value of functional programming in this way
+
+## [BUILDING SECURE CULTURES...Leigh Honeywell](http://www.thestrangeloop.com/2016/building-secure-cultures.html)
