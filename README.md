@@ -484,8 +484,8 @@ My notes from the StrangeLoop 2016 Conference
 * Graph 95th percentile... shows you the 5% with the highest values
 * Graph the 99th percentile... 1% is the amount that you probalby want to pay attention to trouble shoot on large scales
 * Another problem with averages, Aggregate Graphs, Your averaging, for example, across multipel servers.
-* You can breakout the Aggregate Graphs, to see individula servers, for example.
-* Visualizing your data is the only way to get good informaiton out of your data.
+* You can breakout the Aggregate Graphs, to see individul servers, for example.
+* Visualizing your data is the only way to get good information out of your data.
 * Breakout alerts should be on the first dead server, not ever on an aggregate of servers
 * Servers: you have no idea what is going on
   * Ex. Runtime Lag - Runtimes do things that you didn't write code for. There are times when your program is running when your code is not. How do you tell you lost consciousness. How bad is runtime lage. Do a sleep(1) in a loop and take the dif between how many runs and your sleeps, gives you how much time is spent running other stuff.
@@ -495,3 +495,38 @@ My notes from the StrangeLoop 2016 Conference
 
 
 ## [BUILDING A DISTRIBUTED TASK SCHEDULER WITH AKKA, KAFKA, AND CASSANDRA...David van Geest](http://www.thestrangeloop.com/2016/building-a-distributed-task-scheduler-with-akka-kafka-and-cassandra.html)
+
+* He works for PagerDuty, sounds interesting, monitor outages.
+* Reliability and uptime are #1
+* Most important piece is the notification pipeline
+* Infrastructure lives in 3 different data centers, and things need to work always
+* The Problem (that he's discussing)
+  * Email someone 2 days before they're on-call
+  * Push notify 1 minute after an incident
+  * Retry a failed SMS delivery in 30 seconds
+  * Actually it's arbitrary Scala code that needs to run at an arbitrary time
+  * Regardless of changing broken infrastructure
+  * While maintaining task ordering
+  * Taks1 only guranteed to execute before Task2
+    * They ahve the same orderingId
+    * Time of T1 < Time of T2
+    * schedultTask(T1) comes before scheduleTask(T2)
+  * Tasks are idempotent, if you run it again, nothing bad will happen
+* New Hotness
+* Build in Scala
+* Uses:
+  * Apached Kafka - for task buffereing
+  * Apache Cassandra - for task persistance
+  * Akka - task execution
+* Challanges:
+  * Dynamic Load
+  * Data center outages
+  * Task ordering
+* Kafka - dynamic load - scales horizontally
+  * For a topic, Kafka has N replicated partitions
+  * Adding a broker causes partitions to be rebalanced
+  * Partitions are brokered by Kafka
+* Dynamic Load - Service
+  * Can scale horizontally via Kafka
+  * Casandra scales horizontally
+* Datacenter Outages
