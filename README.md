@@ -12,6 +12,7 @@ My notes from the StrangeLoop 2016 Conference
   * [FAILING (AND RECOVERING) ASYNCHRONOUSLY: A SAGA...Daniel Solano Gómez](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#failing-and-recovering-asynchronously-a-sagadaniel-solano-gómez)
   * [PRACTICAL DATA SYNCHRONIZATION WITH CRDTS...Dmitry Ivanov](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#practical-data-synchronization-with-crdtsdmitry-ivanov)
   * [THE FUTURE OF THE MOBILE WEB...Paul Kinlan](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-future-of-the-mobile-webpaul-kinlan)
+  * [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood]()
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
@@ -425,3 +426,6 @@ My notes from the StrangeLoop 2016 Conference
 * Headless Chrome
 * PageSpeed Tools - Insights
 * Lighthouse
+
+## [COMMANDER: BETTER DISTRIBUTED APPLICATIONS THROUGH CQRS AND EVENT SOURCING...Bobby Calderwood](http://www.thestrangeloop.com/2016/commander-better-distributed-applications-through-cqrs-and-event-sourcing.html)
+* 
