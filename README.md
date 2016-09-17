@@ -17,7 +17,7 @@ My notes from the StrangeLoop 2016 Conference. I have tried to account for all o
   * [THE ZEN OF HIGH PERFORMANCE MESSAGING WITH NATS...Waldemar Quevedo Salinas](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#the-zen-of-high-performance-messaging-with-natswaldemar-quevedo-salinas)
   * [FRONTIERS IN CRYPTOGRAPHY...Tony Arcieri](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#frontiers-in-cryptographytony-arcieri)
   * [REPRODUCIBILITY...Gary Bernhardt](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#reproducibilitygary-bernhardt)
-  * [BUILDING SECURE CULTURES...Leigh Honeywell]()
+  * [BUILDING SECURE CULTURES...Leigh Honeywell](https://github.com/corywheeler/strangeloop2016/blob/master/README.md#building-secure-culturesleigh-honeywell)
 
 ## [GOVERNMENT HACKING AND HUMAN RIGHTS: THE WHY AND THE HOW... Amie Stepanovich](http://www.thestrangeloop.com/2016/government-hacking-and-human-rights-the-why-and-the-how.html)
 
